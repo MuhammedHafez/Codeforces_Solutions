@@ -1,0 +1,17 @@
+
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    int n, a, b;
+    cin >> n >> a>>b;
+    int result;
+    if (n - (a + b) > 0) {
+        result = 1 + b;
+    } else
+        result = n - a;
+
+    cout << result << endl;
+    return 0;
+}
